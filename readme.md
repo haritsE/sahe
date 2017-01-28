@@ -4,4 +4,5 @@
 - Use: `sahe <command>`
 
 # Requirements
-- OSX, mostly for the `say` command
+- OSX or Linux
+- Linux: `espeak`: `pacaur -Sy espeak` (Arch), `sudo apt install espeak` (Ubuntu)

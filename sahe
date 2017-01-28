@@ -3,5 +3,9 @@
 if [[ -z "$@" ]]; then
     echo "Usage: sahe <command>"
 else
-    eval $@; say the work is done!
+    if hash say 2>/dev/null; then
+        eval $@; say "the work is done!"
+    else
+        eval $@; espeak "the work is done!"
+    fi
 fi
