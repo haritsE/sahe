@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [[ -z "$@" ]]; then
+    echo "Usage: sahe <command>"
+else
+    eval $@; say the work is done!
+fi
