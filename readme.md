@@ -4,4 +4,4 @@
 - Use: `sahe <command>`
 
 # Requirements
-- OSX
+- OSX, mostly for the `say` command
